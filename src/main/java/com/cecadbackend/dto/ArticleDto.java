@@ -23,6 +23,7 @@ public class ArticleDto {
     public Article getArticle(ArticleDto articleDto){
         Article article = new Article();
         article.setId(articleDto.getId());
+        article.setName(articleDto.getName());
         article.setDescription(articleDto.getDescription());
         article.setUrlImage(articleDto.getUrlImage());
         return article;

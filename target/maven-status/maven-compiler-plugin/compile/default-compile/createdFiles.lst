@@ -1,3 +1,4 @@
+com\cecadbackend\controller\ResearchAreaController.class
 com\cecadbackend\model\Article.class
 com\cecadbackend\controller\ArticleController.class
 com\cecadbackend\repository\ResearchAreaRepository.class
@@ -5,4 +6,5 @@ com\cecadbackend\dto\ArticleDto.class
 com\cecadbackend\model\ResearchArea.class
 com\cecadbackend\repository\ArticleRepository.class
 com\cecadbackend\service\ArticleService.class
+com\cecadbackend\service\ResearchAreaService.class
 com\cecadbackend\CecadBackendApplication.class

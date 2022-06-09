@@ -1,1 +1,10 @@
-D:\Spring projects\cecad-backend\cecad-backend\src\main\java\com\cecadbackend\CecadBackendApplication.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\repository\ResearchAreaRepository.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\controller\ResearchAreaController.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\repository\ArticleRepository.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\service\ResearchAreaService.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\service\ArticleService.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\controller\ArticleController.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\model\ResearchArea.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\CecadBackendApplication.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\dto\ArticleDto.java
+D:\Spring projects\CECAD-Backend\src\main\java\com\cecadbackend\model\Article.java
