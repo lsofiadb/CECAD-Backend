@@ -3,6 +3,7 @@ package com.cecadbackend.controller;
 import com.cecadbackend.dto.ArticleDto;
 import com.cecadbackend.model.Article;
 import com.cecadbackend.service.ArticleService;
+import com.cecadbackend.service.ResearchAreaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,10 +15,14 @@ public class ArticleController {
     @Autowired
     private ArticleService articleService;
 
+    @Autowired
+    private ResearchAreaService researchAreaService;
+
     @PostMapping("/save")
     public ResponseEntity <Article> save(@RequestBody ArticleDto articleDto){
         Article  article = new Article();
         article = articleDto.getArticle(articleDto);
+        article.setResearchArea(researchAreaService.findById(articleDto.getResearch_id()));
         return ResponseEntity.ok().body(articleService.save(article));
     }
 
